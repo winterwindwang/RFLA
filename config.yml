@@ -1,0 +1,22 @@
+sys_flag: "win"
+max_iter: 200
+model_name: "resnet50"
+dataset_name: "imagenet"
+shape_type: "hexagon"
+image_size: 224
+batch_size : 50
+sub_size : 30
+pop_size : 50
+c1: 1.6  #
+c2: 1.8
+c3: 2.05
+dimension: 8  # base variable， x, y, r, a, red, green, blue, angle
+radius_bound: [20, 224]
+x_bound: [0, 224]  
+y_bound: [0, 224]
+omega_bound: [0.9, 1.8] 
+alpha_bound: [0.1, 0.7]
+angle_boud: [0, 360]
+color_bound: [0, 255]
+
+
